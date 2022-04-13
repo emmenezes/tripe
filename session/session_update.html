@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+
+  <title>Editar sessão - Nome do site </title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../user/homepage.html">Projeto de Passeio Turísticos Guiados</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../excursion/excursion_list.html">Lista de Excursões</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Minhas opções
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../excursion/excursion_user_list.html">Minhas excursões</a></li>
+              <li><a class="dropdown-item" href="../session/session_user_list.html">Minhas sessões</a></li>
+              <li><a class="dropdown-item" href="../rating/rating_user_list.html">Minhas avaliações</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Nome e Sobrenome
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="../user/user_update.html">Editar conta</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="../index.html">Deslogar</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" style="padding-top: 2%;">
+    <div class="" style="text-align: center;">
+      <h2>Editar Sessões de Título da Excursão 1</h2>
+    </div>
+
+    <div class="row" style="padding-top: 2%; margin-bottom: 100px;">
+      <div class="col-md-6">
+        <h3>Descrição da Excursão</h3>
+        <b>Cidade</b> Cidade 1<br>
+        <b>Duração</b> Duração 1<br>
+        <b>Endereço</b> Endereço 1<br>
+        <b>Descrição</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. A condimentum vitae sapien pellentesque habitant. Fermentum odio eu feugiat
+        pretium nibh ipsum consequat nisl. Ipsum dolor sit amet consectetur. Suscipit tellus mauris a diam maecenas sed
+        enim ut sem.
+      </div>
+
+      <div class="col-md-6">
+        <form style="margin-bottom: 100px;">
+          <div class="">
+            <h3>Sessão</h3>
+            <div class="form-group" style="padding-top: 2%;">
+              <label for="inputDataHora">Data e hora</label>
+              <input type="datetime-local" class="form-control" id="inputDataHora" value="2020-04-22T18:00">
+            </div>
+            <div class="form-group" style="padding-top: 2%;">
+              <label for="inputIdioma">Idioma</label>
+              <input type="text" class="form-control" id="inputIdioma" value="português e espanhol">
+            </div>
+          </div>
+          <a class="btn btn-primary" href="session_user_list.html" role="button" style="margin-top: 2%;">Salvar alterações
+            da sessão</a>
+        </form>
+      </div>
+    </div>
+
+    
+
+  </div>
+
+  <footer class="bg-dark fixed-bottom px-4">
+    <p id="footer-a">Nome do projeto</p>
+    <p id="footer-p">Feito por: Ayssa Giovana, Eduarda Menezes e Thiago Tokarski</p>
+  </footer>
+</body>
